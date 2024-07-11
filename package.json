@@ -1,0 +1,28 @@
+{
+  "name": "signs-server",
+  "version": "1.0.0",
+  "description": "Takes an SIDC and text modifiers and returns either a SVG or PNG",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/syncpoint/signs-server.git"
+  },
+  "keywords": [
+    "MIL-STD-2525",
+    "APP-6"
+  ],
+  "author": "thomas.halwax@syncpoint.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syncpoint/signs-server/issues"
+  },
+  "homepage": "https://github.com/syncpoint/signs-server#readme",
+  "dependencies": {
+    "@syncpoint/signs": "^1.0.1",
+    "express": "^4.19.2",
+    "ramda": "^0.30.1"
+  }
+}
